@@ -2,11 +2,6 @@ language: python
 python:
   - "3.7-dev"
   - "nightly"
-before_install:
-  - sudo apt-get update
-  - sudo apt-get install zlib1g-dev
-  - sudo apt-get install openssl
-  - sudo apt-get install libssl-dev
 install:
   - "pip install pytest"
   - "pip install -r requirements.txt"
